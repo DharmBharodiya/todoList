@@ -66,6 +66,7 @@ h1::selection{
     border-radius: 0;
     -webkit-border: 0;
     -webkit-outline: 0;
+    -webkit-appearance: none;
     padding: 10px;
     font-size: 16px;
     font-family: 'Open Sans', sans-serif;
