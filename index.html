@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-Do List</title>
+    <link rel="stylesheet" href="todo.css">
+    <script src="https://kit.fontawesome.com/5be644e2a4.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="container">
+        <h1>To-Do <span>List</span></h1>
+        <form id="tasks">
+            <input type="text" name="task" id="task">
+            <input type="submit">
+        </form>
+        <!-- <form id="tasks"> -->
+            <!-- <div class="wrapper">
+                <input type="text" name="task" id="task">
+                <button id="btn" onclick="addList()">Add</button>
+        </div> -->
+        <!-- </form> -->
+        <ul id="mainList">
+            <!-- dummy item -->
+            <li class="list-items" onclick="deleteItem()"><input class="checkbox" type="checkbox">
+                Do Homework
+                <!-- <button class="delete-button"><i class="fas fa-times"></i></button> -->
+            </li>
+            <!-- <li class="list-items">Make Coffee</li> -->
+        </ul>
+    </div>
+
+    <script src="todo.js"></script>
+</body>
+</html>
