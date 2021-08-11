@@ -34,6 +34,7 @@ h1{
     margin-bottom: 1em;
     background: rgba(255, 255, 255, 0.3);
     backdrop-filter: blur(15px);
+    -webkit-backdrop-filter: blur(15px);
     padding: 3px 5px;
 }    
 
@@ -61,8 +62,9 @@ h1::selection{
     font-weight: 600;
     transition: 25ms;
     color: rgb(238, 29, 47);
-    background: rgba(255, 255, 255, 0.8);
+    background: rgba(255, 255, 255, 0.6);
     backdrop-filter: blur(15px);
+    -webkit-backdrop-filter: blur(15px);
 }
 
 #tasks input[type="text"]:focus{
@@ -115,9 +117,10 @@ ul li::before{
 #mainList .list-items{
     list-style: none;
     padding: 5px 13px;
-    /* background: rgb(229, 165, 165); */
-    background: rgba(229, 165, 165, 0.3);
+    background: rgb(229, 165, 165, 0.99);
+    /* background: rgba(229, 165, 165, 0.3);
     backdrop-filter: blur(15px);
+    -webkit-backdrop-filter: blur(15px); */
     margin: 0.3em;
     font-size: 18px;
     font-weight: bold;
