@@ -63,6 +63,9 @@ h1::selection{
 #tasks input[type="submit"] {
     border: 0;
     outline: 0;
+    border-radius: 0;
+    -webkit-border: 0;
+    -webkit-outline: 0;
     padding: 10px;
     font-size: 16px;
     font-family: 'Open Sans', sans-serif;
